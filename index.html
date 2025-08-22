@@ -7,7 +7,7 @@
     <title>Vite + React</title>
     <link rel="stylesheet" href="./src/index.css">
   </head>
-  <body>
+  
  <header class="flex items-center justify-between px-4 md:px-10 py-3 shadow-sm">
       <div class="flex items-center">
         <div class="border rounded-lg px-2 py-1">
@@ -30,9 +30,9 @@
         <button class="p-2 rounded-full hover:bg-gray-100">☰</button>
       </div>
     </header>
-    
+   <div class="bg-red-300"> 
 
-     <div class="px-4 md:px-12 my-8 ">
+     <div class="px-4 md:px-12 my-8 h-100 ">
       <!-- {/* Heading */} -->
       <div class="flex justify-between items-center mb-6">
         <h2 class="text-xl md:text-2xl font-semibold">
@@ -45,12 +45,13 @@
 
       <!-- {/* Cards Container */} -->
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      
+        <div class="grid grid-cols-1 grid-rows-9 gap-4    sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-6  xl:grid-cols-6">
         
         <!-- {/* Card 1 */} -->
-        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+        <div class=" bg-red-300 relative  rounded-xl overflow-hidden shadow hover:shadow-lg transition">
           <img
-            src="/images/home1.jpg"
+            src="./images/075c2821-4d57-43bd-9e70-7fda12d2ec55.jpeg"
             alt="Apartment in Kilimani Estate"
             class="w-full h-56 object-cover"
           />
@@ -72,7 +73,7 @@
         <!-- {/* Card 2 */} -->
         <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
           <img
-            src="/images/home2.jpg"
+            src="./images/0a333a45-9ccc-4fc6-94eb-25a3e490d94d.jpeg"
             alt="Apartment in Nairobi"
             class="w-full h-56 object-cover"
           />
@@ -92,7 +93,7 @@
         <!-- {/* Card 3 */} -->
         <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
           <img
-            src="/images/home3.jpg"
+            src="./images/178541d2-0864-4e47-86a3-c9d5a2490f87.jpeg"
             alt="Apartment in Kilimani Estate"
             class="w-full h-56 object-cover"
           />
@@ -114,7 +115,7 @@
         <!-- {/* Card 4 */} -->
         <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
           <img
-            src="/images/home4.jpg"
+            src="./images/1a63b7ab-f834-48ef-bf2b-97cc7d76ebe7.jpeg"
             alt="Apartment in Nairobi"
             class="w-full h-56 object-cover"
           />
@@ -134,7 +135,7 @@
         <!-- {/* Card 5 */} -->
         <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
           <img
-            src="/images/home5.jpg"
+            src="./images/1dac0f73-a6ce-46fa-b031-e77cffb82e1f.jpeg"
             alt="Apartment in Nairobi"
             class="w-full h-56 object-cover"
           />
@@ -154,7 +155,7 @@
         <!-- {/* Card 6 */} -->
         <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
           <img
-            src="/images/home6.jpg"
+            src="./images/2c62c52c-2097-4265-8036-be26b089daac.jpeg"
             alt="Apartment in Nairobi"
             class="w-full h-56 object-cover"
           />
@@ -172,5 +173,293 @@
         </div>
       </div>
     </div>
+
+
+       <div class="px-4 md:px-12 my-8  h-100 ">
+      <!-- {/* Heading */} -->
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl md:text-2xl font-semibold">
+          Popular homes in Nairobi
+        </h2>
+        <a href="#" class="text-sm text-gray-600 hover:underline">
+          See all →
+        </a>
+      </div>
+
+      <!-- {/* Cards Container */} -->
+
+      
+        <div class="grid grid-cols-1 grid-rows-9 gap-4    sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-6  xl:grid-cols-6">
+        
+        <!-- {/* Card 1 */} -->
+        <div class=" bg-red-300 relative  rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/075c2821-4d57-43bd-9e70-7fda12d2ec55.jpeg"
+            alt="Apartment in Kilimani Estate"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 2 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/0a333a45-9ccc-4fc6-94eb-25a3e490d94d.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$91 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.95</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 3 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/178541d2-0864-4e47-86a3-c9d5a2490f87.jpeg"
+            alt="Apartment in Kilimani Estate"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$66 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.9</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 4 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/1a63b7ab-f834-48ef-bf2b-97cc7d76ebe7.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$117 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 5.0</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 5 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/1dac0f73-a6ce-46fa-b031-e77cffb82e1f.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$83 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.99</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 6 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/2c62c52c-2097-4265-8036-be26b089daac.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$64 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.89</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+       <div class="px-4 md:px-12 my-8 h-100 ">
+      <!-- {/* Heading */} -->
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl md:text-2xl font-semibold">
+          Popular homes in Nairobi
+        </h2>
+        <a href="#" class="text-sm text-gray-600 hover:underline">
+          See all →
+        </a>
+      </div>
+
+      <!-- {/* Cards Container */} -->
+
+      
+        <div class="grid grid-cols-1 grid-rows-9 gap-4    sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-6  xl:grid-cols-6">
+        
+        <!-- {/* Card 1 */} -->
+        <div class=" bg-red-300 relative  rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/075c2821-4d57-43bd-9e70-7fda12d2ec55.jpeg"
+            alt="Apartment in Kilimani Estate"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 2 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/0a333a45-9ccc-4fc6-94eb-25a3e490d94d.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$91 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.95</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 3 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/178541d2-0864-4e47-86a3-c9d5a2490f87.jpeg"
+            alt="Apartment in Kilimani Estate"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$66 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.9</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 4 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/1a63b7ab-f834-48ef-bf2b-97cc7d76ebe7.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$117 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 5.0</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 5 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/1dac0f73-a6ce-46fa-b031-e77cffb82e1f.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$83 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.99</p>
+          </div>
+        </div>
+
+        <!-- {/* Card 6 */} -->
+        <div class="relative bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img
+            src="./images/2c62c52c-2097-4265-8036-be26b089daac.jpeg"
+            alt="Apartment in Nairobi"
+            class="w-full h-56 object-cover"
+          />
+          <span class="absolute top-3 left-3 bg-white text-xs font-medium px-2 py-1 rounded-full shadow">
+            Guest favorite
+          </span>
+          <button class="absolute top-3 right-3 bg-white rounded-full p-2 shadow hover:bg-gray-100">
+            ♥
+          </button>
+          <div class="p-3">
+            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
+            <p class="text-sm text-gray-600">$64 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.89</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
   </body>
 </html>
