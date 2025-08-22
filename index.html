@@ -5,7 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./src/index.css">
+
   </head>
   <body>
    <!-- this is the header box -->
@@ -31,16 +33,16 @@
         <button class="p-2 rounded-full hover:bg-gray-100">☰</button>
       </div>
     </header>
-   <div class="bg-red-300 "> 
+  
 
-     <div class=" h-100 bg-blue-400 w-full">
+     <div class=" h-90  w-full">
       <!-- {/* Heading */} -->
-      <div class="flex justify-between items-center mb-6 ">
+      <div class="flex justify-between items-center mb-6 lg:flex lg:w-280 lg:mx-auto ">
         <h2 class="text-xl md:text-2xl font-semibold">
           Popular homes in Nairobi
         </h2>
         <a href="#" class="text-sm text-gray-600 hover:underline">
-          See all →
+          <img src="./images/right-arrow.png" alt="" class="h-3">
         </a>
       </div>
 
@@ -48,25 +50,25 @@
 
       
        
-        <div class=" bg-gray-700 h-auto w-full grid grid-cols-[repeat(auto-fill,minmax(250px,max-content))]
+        <div class="  h-auto w-full grid grid-cols-[repeat(auto-fill,minmax(250px,max-content))]
          gap-4 place-content-center md:grid md:grid-cols-[repeat(auto-fill,minmax(250px,max-content))] md:gap-2 
-         md:place-content-center md:justify-center   lg:flex ">
+         md:place-content-center md:justify-center   lg:flex lg:w-280 lg:mx-auto lg:h-70">
         
         <!-- {/* Card 1 */} -->
         <div class=" bg-white   rounded-xl  shadow hover:shadow-lg transition border m-1 w-70 md:m-2 ">
-          <img
-            src="./images/075c2821-4d57-43bd-9e70-7fda12d2ec55.jpeg"
-            alt="Apartment in Kilimani Estate"
-            class="w-full h-56 object-cover"
-          />
-          <span class=" text-xs font-medium  rounded-full shadow">
+          <div class="w-full h-36 bg-cover bg-center bg-image flex justify-center">
+            <div class="flex justify-between w-full">
+          <span class=" text-xs font-medium  rounded-full shadow ml-5">
             Guest favorite
           </span>
-          <button class=" rounded-full  shadow hover:bg-gray-100">
+          <button class=" self-start    shadow hover:bg-gray-100 text-end mr-5">
             ♥
           </button>
-          <div class="">
-            <h3 class="text-sm font-semibold">
+          </div>
+          </div>
+          
+          <div class="mt-2">
+            <h3 class="text-sm font-semibold ">
               Apartment in Kilimani Estate
             </h3>
             <p class="text-sm text-gray-600">$108 for 2 nights</p>
@@ -75,104 +77,112 @@
         </div>
 
         <!-- {/* Card 2 */} -->
-        <div class="bg-white rounded-xl shadow hover:shadow-lg transition m-1 grow w-70 md:m-2">
-          <img
-            src="./images/0a333a45-9ccc-4fc6-94eb-25a3e490d94d.jpeg"
-            alt="Apartment in Nairobi"
-            class="w-full h-56 object-cover"
-          />
-          <span class=" text-xs font-medium  rounded-full shadow">
+         <div class=" bg-white   rounded-xl  shadow hover:shadow-lg transition border m-1 w-70 md:m-2 ">
+          <div class="w-full h-36 bg-cover bg-center bg-image flex justify-center">
+            <div class="flex justify-between w-full">
+          <span class=" text-xs font-medium  rounded-full shadow ml-5">
             Guest favorite
           </span>
-          <button class=" rounded-full  shadow hover:bg-gray-100">
+          <button class=" self-start    shadow hover:bg-gray-100 text-end mr-5">
             ♥
           </button>
-          <div class="">
-            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
-            <p class="text-sm text-gray-600">$91 for 2 nights</p>
-            <p class="text-sm text-gray-800">★ 4.95</p>
+          </div>
+          </div>
+          
+          <div class="mt-2">
+            <h3 class="text-sm font-semibold ">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
           </div>
         </div>
 
         <!-- {/* Card 3 */} -->
-        <div class=" bg-white rounded-xl  shadow hover:shadow-lg transition m-1 w-70 md:m-2 ">
-          <img
-            src="./images/178541d2-0864-4e47-86a3-c9d5a2490f87.jpeg"
-            alt="Apartment in Kilimani Estate"
-            class="w-full h-56 object-cover"
-          />
-          <span class="  text-xs font-medium rounded-full shadow">
+        <div class=" bg-white   rounded-xl  shadow hover:shadow-lg transition border m-1 w-70 md:m-2 ">
+          <div class="w-full h-36 bg-cover bg-center bg-image flex justify-center">
+            <div class="flex justify-between w-full">
+          <span class=" text-xs font-medium  rounded-full shadow ml-5">
             Guest favorite
           </span>
-          <button class="  rounded-full  shadow hover:bg-gray-100">
+          <button class=" self-start    shadow hover:bg-gray-100 text-end mr-5">
             ♥
           </button>
-          <div class="">
-            <h3 class="text-sm font-semibold">
+          </div>
+          </div>
+          
+          <div class="mt-2">
+            <h3 class="text-sm font-semibold ">
               Apartment in Kilimani Estate
             </h3>
-            <p class="text-sm text-gray-600">$66 for 2 nights</p>
-            <p class="text-sm text-gray-800">★ 4.9</p>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
           </div>
         </div>
 
         <!-- {/* Card 4 */} -->
-        <div class="bg-white rounded-xl  shadow hover:shadow-lg transition m-1 w-70">
-          <img
-            src="./images/1a63b7ab-f834-48ef-bf2b-97cc7d76ebe7.jpeg"
-            alt="Apartment in Nairobi"
-            class="w-full h-56 object-cover"
-          />
-          <span class="text-xs font-medium rounded-full shadow">
+       <div class=" bg-white   rounded-xl  shadow hover:shadow-lg transition border m-1 w-70 md:m-2 ">
+          <div class="w-full h-36 bg-cover bg-center bg-image flex justify-center">
+            <div class="flex justify-between w-full">
+          <span class=" text-xs font-medium  rounded-full shadow ml-5">
             Guest favorite
           </span>
-          <button class=" rounded-full shadow hover:bg-gray-100">
+          <button class=" self-start    shadow hover:bg-gray-100 text-end mr-5">
             ♥
           </button>
-          <div class="">
-            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
-            <p class="text-sm text-gray-600">$117 for 2 nights</p>
-            <p class="text-sm text-gray-800">★ 5.0</p>
+          </div>
+          </div>
+          
+          <div class="mt-2">
+            <h3 class="text-sm font-semibold ">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
           </div>
         </div>
 
         <!-- {/* Card 5 */} -->
-        <div class="bg-white rounded-xl  shadow hover:shadow-lg transition m-1 w-70">
-          <img
-            src="./images/1dac0f73-a6ce-46fa-b031-e77cffb82e1f.jpeg"
-            alt="Apartment in Nairobi"
-            class="w-full h-56 object-cover"
-          />
-          <span class="text-xs font-medium px-2 py-1 rounded-full shadow">
+        <div class=" bg-white   rounded-xl  shadow hover:shadow-lg transition border m-1 w-70 md:m-2 ">
+          <div class="w-full h-36 bg-cover bg-center bg-image flex justify-center">
+            <div class="flex justify-between w-full">
+          <span class=" text-xs font-medium  rounded-full shadow ml-5">
             Guest favorite
           </span>
-          <button class=" rounded-full p-2 shadow hover:bg-gray-100">
+          <button class=" self-start    shadow hover:bg-gray-100 text-end mr-5">
             ♥
           </button>
-          <div class="">
-            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
-            <p class="text-sm text-gray-600">$83 for 2 nights</p>
-            <p class="text-sm text-gray-800">★ 4.99</p>
+          </div>
+          </div>
+          
+          <div class="mt-2">
+            <h3 class="text-sm font-semibold ">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
           </div>
         </div>
 
         <!-- {/* Card 6 */} -->
-        <div class=" bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition m-1 w-70 ">
-          <img
-            src="./images/2c62c52c-2097-4265-8036-be26b089daac.jpeg"
-            alt="Apartment in Nairobi"
-            class="w-full h-56 object-cover"
-          />
-          <span class="  text-xs font-medium rounded-full shadow">
+       <div class=" bg-white   rounded-xl  shadow hover:shadow-lg transition border m-1 w-70 md:m-2 ">
+          <div class="w-full h-36 bg-cover bg-center bg-image flex justify-center">
+            <div class="flex justify-between w-full">
+          <span class=" text-xs font-medium  rounded-full shadow ml-5">
             Guest favorite
           </span>
-          <button class="  rounded-full  shadow hover:bg-gray-100">
+          <button class=" self-start    shadow hover:bg-gray-100 text-end mr-5">
             ♥
           </button>
-          <div class="">
-            <h3 class="text-sm font-semibold">Apartment in Nairobi</h3>
-            <p class="text-sm text-gray-600">$64 for 2 nights</p>
-            <p class="text-sm text-gray-800">★ 4.89</p>
+          </div>
+          </div>
+          
+          <div class="mt-2">
+            <h3 class="text-sm font-semibold ">
+              Apartment in Kilimani Estate
+            </h3>
+            <p class="text-sm text-gray-600">$108 for 2 nights</p>
+            <p class="text-sm text-gray-800">★ 4.96</p>
           </div>
         </div>
 

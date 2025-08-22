@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+.bg-image{
+    background-image: url('../images/178541d2-0864-4e47-86a3-c9d5a2490f87.jpeg');
+    border-radius: 10px;
+    
+    
+}
